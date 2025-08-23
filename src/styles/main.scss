@@ -1,7 +1,25 @@
 @import 'utils';
 @import 'fonts';
 @import 'typography';
+@import 'utils/normalize';
+@import 'utils/vars';
 
 body {
-  background: $c-gray;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  letter-spacing: -2px;
+}
+
+@media screen and (max-width: 640px) {
+  @import 'small-phone';
+}
+
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+  @import 'tab';
 }

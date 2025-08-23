@@ -6,14 +6,161 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
-    <title>Dia</title>
+    <title>Air</title>
     <link
       rel="stylesheet"
       href="./styles/main.scss"
     />
+    <link
+      rel="shortcut icon"
+      href="images/fawicon.ico"
+      type="image/x-icon"
+    />
+    <script
+      src="scripts/main.js"
+      defer
+    ></script>
   </head>
   <body>
-    <h1>Dia</h1>
-    <script src="scripts/main.js"></script>
+    <header class="header">
+      <div class="header__logo">
+        <a
+          href="#hero"
+          class="header__logo-link"
+        ></a>
+      </div>
+      <div class="header__menu">
+        <a
+          href="#menu"
+          class="header__nav-burger"
+        ></a>
+        <nav class="header__nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a
+                href="#"
+                class="nav__link"
+              >
+                About us
+              </a>
+            </li>
+            <li class="nav__item">
+              <a
+                href="#"
+                class="nav__link"
+              >
+                Services
+              </a>
+            </li>
+            <li class="nav__item">
+              <a
+                href="#testimonials"
+                class="nav__link"
+              >
+                Testimonials
+              </a>
+            </li>
+            <li class="nav__item">
+              <a
+                href="#footer"
+                class="nav__link"
+              >
+                Contact us
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header__hire">
+        <a href="mailto:hireus@gmail.com">HIRE US</a>
+      </div>
+    </header>
+    <section
+      class="hero"
+      id="hero"
+    >
+      <div class="hero__wrapper">
+        <h1 class="hero__caption">Strategic Agency</h1>
+        <p class="hero__text">
+          We believe in the power of bold ideas that can solve business
+          challenges.
+        </p>
+        <a
+          href="#"
+          class="hero__btn"
+        >
+          Learn more
+        </a>
+      </div>
+    </section>
+    <section class="welcome">Welcome</section>
+    <section class="what-we-can-do">What we can do</section>
+    <section class="process">Process</section>
+    <section
+      class="testimonials"
+      id="testimonials"
+    >
+      Testimonials
+    </section>
+    <section class="cta">CTA block</section>
+    <footer
+      class="footer"
+      id="footer"
+    >
+      <form
+        action="#"
+        method="post"
+        class="footer__form"
+        onsubmit="this.reset(); return false;"
+      >
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email"
+          class="footer__text"
+          required
+        />
+        <input
+          type="text"
+          name="Name"
+          id="name"
+          placeholder="Name"
+          class="footer__text"
+          required
+        />
+        <textarea
+          name="message"
+          id="message"
+          class="footer__message"
+          placeholder="Message"
+          required
+        ></textarea>
+        <input
+          type="submit"
+          value="Send"
+          class="footer__btn"
+        />
+      </form>
+      <div class="footer__contacts">
+        <h2 class="footer__contacts-title">Contact us</h2>
+        <div class="footer__contact-element">
+          <h3 class="footer__lable">Call us</h3>
+          <p class="footer__contact"></p>
+        </div>
+        <div class="footer__contact-element">
+          <h3 class="footer__lable">Visit us</h3>
+          <p class="footer__contact"></p>
+        </div>
+        <div class="footer__contact-element">
+          <h3 class="footer__lable">Our socials</h3>
+          <div class="footer__contact">
+            <div class="footer__social-facebook"></div>
+            <div class="footer__social-tweeter"></div>
+            <div class="footer__social-instagram"></div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
