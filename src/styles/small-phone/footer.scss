@@ -10,7 +10,16 @@
     gap: 40px;
     width: 90%;
     margin: 0 auto;
+    &-title {
+    color: $main-white;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 130%;
+    letter-spacing: 0;
+    margin: 40px 20px;
   }
+  }
+
   &__text {
     background-color: #2c2c2c;
     color: $main-white;
@@ -63,7 +72,7 @@
   }
   &__contacts {
     color: $main-white;
-    margin: 0 40px;
+    margin: 0 20px;
     &-title {
       font-weight: 600;
       font-size:32px;
