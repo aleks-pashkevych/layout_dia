@@ -1,0 +1,20 @@
+.testimonials {
+  margin-top: 100px;
+  padding: 20px;
+  &__watermark {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #C0CDD7;
+  }
+  &__caption {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  color: #253757;
+
+  }
+}
