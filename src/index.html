@@ -16,8 +16,16 @@
       href="images/fawicon.ico"
       type="image/x-icon"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <script
       src="scripts/main.js"
+      defer
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
       defer
     ></script>
   </head>
@@ -91,13 +99,38 @@
         >
           Learn more
         </a>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="swiper__content">
+                <div class="swiper__info">
+                  <h3 class="swiper__caption">Intro</h3>
+                  <p class="swiper__text">
+                    By the same illusion which lifts the horizon.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+          </div>
+          <div class="swiper-prev"></div>
+          <div class="swiper-next"></div>
+        </div>
       </div>
     </section>
     <section
       class="welcome"
       id="welcome"
     >
-      Welcome
+      <h2 class="wellcome__caption">Who we are</h2>
+      <p class="wellcome__content">
+        We embrace a strategic approach to creative ideas. We are interested in
+        people and human relationships. This is the main thing you need to know
+        about us. We believe in the power of bold ideas that can solve business
+        challenges.
+      </p>
     </section>
     <section
       class="experience"
