@@ -1,6 +1,12 @@
 @import 'small-phone/header';
 @import 'small-phone/hero';
+@import 'small-phone/wellcome';
+@import 'small-phone/experience';
+@import './small-phone/service';
+@import 'small-phone/testimonials';
+@import 'small-phone/cta';
 @import 'small-phone/footer';
+@import 'small-phone/swiper';
 
 body {
   min-width: 320px;
