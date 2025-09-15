@@ -1,0 +1,1 @@
+{"mappings":"AAAA;AACA,kCAAkC;AAClC,IAAI,OAAO","sources":["src/scripts/main.js"],"sourcesContent":["'use strict';\n// eslint-disable-next-line no-new\nnew Swiper('.swiper');\n"],"names":[],"version":3,"file":"index.f75de5e1.js.map","sourceRoot":"/__parcel_source_root/"}
