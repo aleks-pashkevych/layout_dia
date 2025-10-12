@@ -1,24 +1,30 @@
 .swiper {
-  margin-top: 40px;
-  margin-bottom: 20px;
+  margin-top: -100px;
   &-wrapper {
-    width: 320px;
-    height: 390px;
-    overflow: hidden;
+    width: 100%;
+    height: 400px;
+    overflow:visible;
+    position: absolute;
+    display: block;
+    z-index: 19;
+    top: 0;
   }
   &__content {
-    display: block;
-    width: 320px;
+    width: 100%;
     height: 390px;
+    box-sizing: border-box;
     background-image: url('../images/slider/Photo.png');
     background-repeat: no-repeat;
-    background-size: contain;
-    padding-bottom: 10px;
-    padding-top: 90%;
+    background-size: cover;
+    border-radius:50px;
+
   }
   &__info {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
+    color: $main-white;
+    position: relative;
+    bottom: -300px;
   }
   &__caption {
     font-weight: 700;
@@ -44,7 +50,7 @@
     height: 40px;
     border-radius:50%;
     position: absolute;
-    bottom: 400px;
+    bottom: 100px;
     z-index: 10;
     background-repeat:no-repeat;
     background-size:16px;
