@@ -23,3 +23,7 @@ h1, h2, h3 {
 @media screen and (min-width: 641px) and (max-width: 1024px) {
   @import 'phone';
 }
+
+@media screen and (min-width: 1025px) and (max-width: 1279px) {
+  @import 'tab';
+}

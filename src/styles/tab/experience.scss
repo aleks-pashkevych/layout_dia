@@ -1,0 +1,44 @@
+.experience {
+  background-color: $main-white;
+  padding: 130px 140px;
+  border-radius: 30px;
+  overflow: hidden;
+  &__head {
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 150%;
+    letter-spacing: 0;
+    text-align: center;
+    color: #253757;
+  }
+  &__card {
+    margin-top: 70px;
+    &-img {
+      width: 40%;
+      margin: 0 auto;
+      border-radius:16px;
+      overflow:hidden;
+    }
+    &-picture {
+      width: 100%;
+    }
+    &-description {
+      margin-top: 30px;
+    }
+    &-caption {
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 140%;
+      letter-spacing: 0;
+      text-align: center;
+      color: #253757;
+
+    }
+    &-text {
+      font-size: 14px;
+      line-height: 150%;
+      letter-spacing: 0;
+      text-align: center;
+    }
+  }
+}
